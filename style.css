@@ -8,15 +8,13 @@ body {
 h1 {
   text-align: center;
   color: #82f606b1;
-  font-size: 50px;
+  font-size: 100px;
   font-family: "Arial";
   text-shadow: 2px 2px 4px #000000;
 }
 
 table {
   margin: 0 auto;
-  border-collapse: collapse;
-  border: 1px solid black;
   width: 60%;
   text-align: center;
 }
@@ -24,16 +22,20 @@ td {
   border: 1px solid black;
   padding: 10px;
   width: 33%;
-  background: rgb(147, 208, 133);
+  border-radius: 50%;
+  border: 1px solid white;
   background: linear-gradient(
     90deg,
     rgba(147, 208, 133, 0.4767156862745098) 0%,
-    rgba(58, 235, 30, 0.5551470588235294) 50%,
+    rgba(174, 235, 30, 0.555) 50%,
     rgba(247, 165, 48, 0.5243347338935574) 100%
   );
 }
 td img {
-  width: 100%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid rgba(129, 201, 126, 0.496);
 }
 
 td button {
@@ -49,4 +51,11 @@ td button {
 td button:hover {
   background-color: #45a049;
   cursor: pointer;
+}
+
+h4 {
+  text-align: center;
+  color: #00fb08de;
+  font-size: 35px;
+  text-shadow: 2px 2px 4px #000000;
 }
